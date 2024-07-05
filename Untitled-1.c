@@ -94,7 +94,7 @@ int main(void)
         }
     }
     //print solution
-    for (int i = currDepth - 1; i > 1; i--) {
+    for (int i = currDepth - 1; i >= 0; i--) {
         printf("%c%c ", faces[solution[i].face], rotation[solution[i].rotation]);
     }
     printf("\n");
@@ -118,7 +118,7 @@ int main(void)
         }
     }
     //print solution
-    for (int i = currDepth - 1; i > 1; i--) {
+    for (int i = currDepth - 1; i >= 0; i--) {
         printf("%c%c ", faces[solution[i].face], rotation[solution[i].rotation]);
     }
     printf("\n");
