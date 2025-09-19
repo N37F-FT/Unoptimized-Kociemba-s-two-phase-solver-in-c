@@ -73,10 +73,6 @@ int main(void)
     printString(state);
     printcube(state);
 
-    turn(state, 1, 2);
-    turn(state, 0, 0);
-    turn(state, 3, 2);
-
     //phase 1 ###########################
     printf("###### Phase 1: ######\n");
 
@@ -352,3 +348,4 @@ void printcube(int state[])
         printf("\n");
     }
 }
+
